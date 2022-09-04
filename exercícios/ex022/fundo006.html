@@ -4,21 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posições</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+
+            /*  Shorthand - background
+                color > image > position > repeat > [size] > attachment
+            */
             
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
+            
+            /* background-size não funciona com o Shorthand */
+
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -29,6 +39,8 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At nihil magnam non similique veritatis quibusdam modi, sed ipsum exercitationem iusto suscipit quaerat. Et ut in non deleniti quisquam quam qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consequatur sint quidem officia quam eum nostrum, repudiandae, itaque ipsam cum exercitationem officiis excepturi cumque magnam modi, quibusdam hic esse! Odit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illum architecto, debitis natus in quaerat, dolor excepturi corporis numquam totam laboriosam praesentium, amet autem distinctio enim placeat ex nisi vero? lo</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At nihil magnam non similique veritatis quibusdam modi, sed ipsum exercitationem iusto suscipit quaerat. Et ut in non deleniti quisquam quam qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consequatur sint quidem officia quam eum nostrum, repudiandae, itaque ipsam cum exercitationem officiis excepturi cumque magnam modi, quibusdam hic esse! Odit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illum architecto, debitis natus in quaerat, dolor excepturi corporis numquam totam laboriosam praesentium, amet autem distinctio enim placeat ex nisi vero? lo</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At nihil magnam non similique veritatis quibusdam modi, sed ipsum exercitationem iusto suscipit quaerat. Et ut in non deleniti quisquam quam qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consequatur sint quidem officia quam eum nostrum, repudiandae, itaque ipsam cum exercitationem officiis excepturi cumque magnam modi, quibusdam hic esse! Odit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illum architecto, debitis natus in quaerat, dolor excepturi corporis numquam totam laboriosam praesentium, amet autem distinctio enim placeat ex nisi vero? lo</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At nihil magnam non similique veritatis quibusdam modi, sed ipsum exercitationem iusto suscipit quaerat. Et ut in non deleniti quisquam quam qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consequatur sint quidem officia quam eum nostrum, repudiandae, itaque ipsam cum exercitationem officiis excepturi cumque magnam modi, quibusdam hic esse! Odit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illum architecto, debitis natus in quaerat, dolor excepturi corporis numquam totam laboriosam praesentium, amet autem distinctio enim placeat ex nisi vero? lo</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At nihil magnam non similique veritatis quibusdam modi, sed ipsum exercitationem iusto suscipit quaerat. Et ut in non deleniti quisquam quam qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consequatur sint quidem officia quam eum nostrum, repudiandae, itaque ipsam cum exercitationem officiis excepturi cumque magnam modi, quibusdam hic esse! Odit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illum architecto, debitis natus in quaerat, dolor excepturi corporis numquam totam laboriosam praesentium, amet autem distinctio enim placeat ex nisi vero? lo</p>
